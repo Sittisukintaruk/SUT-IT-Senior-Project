@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:orientation="horizontal"
+              android:background="@color/colorblue">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_log_back_white"
+            android:layout_gravity="center"
+            android:id="@+id/back_discode"
+    />
+    <TextView
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/action_bar_title"
+            android:text="ส่วนลด"
+            android:paddingLeft="55dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/rsu"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+            android:textSize="35sp"/>
+
+    <TextView
+            android:text="แลก"
+            android:layout_width="164dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:fontFamily="@font/rsu"
+            android:id="@+id/discode_text"
+            android:textSize="35sp"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/grayla"
+            android:layout_weight="1"/>
+
+
+</LinearLayout>

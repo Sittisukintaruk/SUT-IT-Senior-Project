@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:background="@color/colorblue"
+              android:layout_height="50dp">
+
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_log_back_white"
+            android:id="@+id/back_reward_back"
+
+            android:layout_gravity="center"
+            android:paddingRight="15dp"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="15dp"
+            android:gravity="center"
+            android:id="@+id/action_bar_title"
+            android:text="REWARD"
+            android:textStyle="bold"
+            android:fontFamily="@font/ab"
+            android:textColor="@color/colorWhiet"
+            android:textSize="25sp"/>
+
+
+</LinearLayout>

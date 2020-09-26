@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@color/color_white_new"
+                                             >
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="154dp"
+                  android:orientation="vertical" android:id="@+id/linearLayout17"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toTopOf="parent"
+    >
+
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                app:srcCompat="@mipmap/ic_person_history"
+                android:id="@+id/imageView_user_pro"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="5dp"/>
+        <TextView
+                android:text="Natthawat Phakdeepromma"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_fullname"
+                android:fontFamily="@font/nimbussanl_reg"
+
+                android:layout_marginBottom="17dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/linearLayout18"
+            android:weightSum="5"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout17"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp" android:layout_marginEnd="8dp">
+
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_menu"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+            <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/name_user"
+
+                    android:id="@+id/imageView_name"/>
+            <TextView
+                    android:text="Natthawat"
+                    android:layout_width="match_parent"
+                    android:gravity="center|left"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_name_pr"
+                    android:paddingLeft="15dp"
+                    android:fontFamily="@font/nimbussanl_reg"
+            />
+
+
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_menu"
+                android:layout_marginBottom="5dp"
+
+                android:layout_weight="1">
+
+            <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/user_subname"
+                    android:id="@+id/imageView_sum"/>
+            <TextView
+                    android:text="Phakdeepromma"
+                    android:layout_width="match_parent"
+                    android:gravity="center|left"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_sub"
+                    android:paddingLeft="15dp"
+
+                    android:fontFamily="@font/nimbussanl_reg"
+
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_menu"
+                android:layout_marginBottom="5dp"
+
+                android:layout_weight="1">
+
+            <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/email_use"
+                    android:id="@+id/imageView_e"/>
+            <TextView
+                    android:text="donat1-2@hotmail.com"
+                    android:layout_width="match_parent"
+                    android:gravity="center|left"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_mail"
+                    android:paddingLeft="15dp"
+
+                    android:fontFamily="@font/nimbussanl_reg"
+
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_menu"
+                android:layout_marginBottom="5dp"
+
+                android:layout_weight="1">
+
+            <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/phone_user"
+                    android:id="@+id/imageView_tel"/>
+            <TextView
+                    android:text="+123 456 789 234"
+                    android:layout_width="match_parent"
+                    android:gravity="center|left"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_tel"
+                    android:paddingLeft="15dp"
+
+                    android:fontFamily="@font/nimbussanl_reg"
+
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_menu"
+                android:layout_marginBottom="5dp"
+
+                android:layout_weight="1">
+
+            <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/point_user"
+                    android:id="@+id/imageView_password"
+            />
+            <TextView
+                    android:text="200"
+                    android:layout_width="match_parent"
+                    android:gravity="center|left"
+                    android:textSize="20dp"
+                    android:paddingLeft="15dp"
+
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_password_profile"
+                    android:fontFamily="@font/nimbussanl_reg"
+
+            />
+
+
+        </LinearLayout>
+
+        <Button
+                style="?android:attr/button"
+                android:id="@+id/button_upload_resume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:text="@string/upload_resume"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout >

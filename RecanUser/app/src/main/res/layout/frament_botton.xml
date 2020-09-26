@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+              android:background="@drawable/button_menu"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frameLayout_hoodd"
+            android:layout_margin="15dp"
+            android:weightSum="3"
+            android:background="@drawable/button_menu" >
+
+        <TextView
+                android:text="อัตราการแลกขวด"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/rsu"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="3"
+                android:layout_gravity="center"
+        >
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/imageView_boton1"
+                    android:src="@drawable/smail"
+                    android:scaleType="fitCenter"
+                    app:riv_corner_radius="15dip"
+                    app:riv_border_color="#333333"
+                    android:layout_weight="1"
+                    app:riv_mutate_background="true"
+                    android:tint="@color/colorAccent"
+                    android:layout_marginBottom="15dp"
+                    app:riv_oval="false" android:layout_height="wrap_content"
+                    android:layout_width="match_parent"/>
+            <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/imageView_boton2"
+                    android:src="@drawable/big"
+                    android:scaleType="fitCenter"
+                    app:riv_corner_radius="15dip"
+                    app:riv_border_color="#333333"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1"
+
+                    app:riv_mutate_background="true"
+                    android:tint="@color/colorAccent"
+                    app:riv_oval="false" android:layout_height="wrap_content"
+                    android:layout_width="match_parent"/>
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/imageView_boton3"
+                    android:src="@drawable/coms"
+                    android:scaleType="fitCenter"
+                    app:riv_corner_radius="15dip"
+                    app:riv_border_color="#333333"
+                    android:layout_weight="1"
+
+                    app:riv_mutate_background="true"
+                    android:tint="@color/colorAccent"
+                    app:riv_oval="false" android:layout_height="wrap_content"
+                    android:layout_width="match_parent"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

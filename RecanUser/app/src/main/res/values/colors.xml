@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorblue">#007896</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhiet">#FFFF</color>
+    <color name="colorsky">#2298FA</color>
+    <color name="colortext">#707070</color>
+    <color name="colorfly">#3F51B5</color>
+    <color name="colorred">#FFFF00</color>
+    <color name="colorback">#BCE0FD</color>
+    <color name="colorblack">#000000</color>
+    <color name="Grayb">#4F4F4F</color>
+    <color name="peru">#CD853F</color>
+    <color name="grayla">#838B8B</color>
+    <color name="color_gree">#289D91</color>
+    <color name="color_white_new">#FFFAFA</color>
+
+    0989BF
+    <color name="history_color">#F1F9FF</color>
+    <color name="color_positive">#0EEA06</color>
+    <color name="color_negitive">#FB0000</color>
+    <color name="color_red_true">#FF0000</color>
+    <color name="peruTEe">#CC7A2A</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="blue_min">#2699FB</color>
+    <color name="text">#F88348</color>
+    <color name="text2">#F29C7D</color>
+
+
+    #2699FB
+
+    <color name="Gray">#BEBEBE</color>
+
+</resources>

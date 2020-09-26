@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorblue"
+                                    >
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/linearLayout12"
+            android:layout_marginBottom="48dp"
+            android:paddingRight="40dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3" android:layout_marginTop="16dp">
+
+        <ImageView
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/point_st"
+                android:id="@+id/imageView2"
+                android:paddingLeft="25dp"
+                android:paddingBottom="10dp"
+        />
+        <TextView
+                android:text="0"
+                android:layout_width="140dp"
+                android:layout_height="42dp"
+                android:id="@+id/point"
+                android:gravity="center"
+                android:background="@drawable/button_menu"
+                android:textColor="@color/colorblack"
+                android:fontFamily="@font/ab"
+                android:textSize="30dp"
+                android:paddingBottom="5dp"
+        />
+        <TextView
+                android:text="พอยท์"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/point_new"
+                android:paddingTop="13dp"
+                android:textColor="@color/colorWhiet"
+                android:fontFamily="@font/rsu"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+        />
+
+    </LinearLayout>
+    <ImageView
+            android:layout_width="310dp"
+            android:layout_height="227dp"
+            app:srcCompat="@drawable/voluten"
+            android:id="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout12" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="97dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="96dp" android:layout_marginTop="24dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:text="ระบุชั่วโมงจิตอาสาที่ต้องการแลก"
+            android:textSize="35dp"
+            android:fontFamily="@font/rsu"
+            android:textColor="@color/colorWhiet"
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="53dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="88dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout13"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="305dp"
+            android:layout_height="53dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="53dp"
+            android:layout_marginEnd="53dp" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/linearLayout13" android:layout_marginTop="14dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:layout_constraintBottom_toTopOf="@+id/textView6">
+
+        <TextView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteY="392dp"
+                tools:layout_editor_absoluteX="16dp"
+                android:gravity="center"
+                android:id="@+id/textadd"
+                android:background="@color/colorsky"
+                android:textStyle="bold"
+                android:text="ระบุเอง"
+                android:fontFamily="@font/rsu"
+                android:textSize="30dp"
+                android:textColor="@color/colorWhiet"/>
+        <Spinner
+                android:layout_width="111dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_menu_notroud"
+                android:prompt="@string/spinner_title"
+                tools:layout_editor_absoluteY="440dp"
+                tools:layout_editor_absoluteX="139dp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+
+                android:id="@+id/Spinner01"
+                android:gravity="center"
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteY="392dp"
+                tools:layout_editor_absoluteX="16dp"
+                android:gravity="center"
+                android:id="@+id/textViehr"
+                android:text="ชั่วโมง"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhiet"
+                android:fontFamily="@font/rsu"
+        />
+
+    </LinearLayout>
+
+
+    <Button
+            android:text="ยืนยัน"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorsky"
+            android:textColor="@color/colorWhiet"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/rsu"
+            android:id="@+id/button" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout13" android:layout_marginBottom="2dp"
+            app:layout_constraintVertical_bias="0.702"/>
+    <TextView
+            android:text="** 70 แเต้มแลกได้ 1 ชั่วโมง"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorWhiet"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:id="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="51dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="201dp"
+            android:fontFamily="@font/rsu" android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/button" app:layout_constraintHorizontal_bias="0.396"/>
+
+
+</android.support.constraint.ConstraintLayout>
